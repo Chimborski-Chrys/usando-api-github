@@ -1,7 +1,9 @@
 import React, { createContext, useState } from 'react';
 
 export const GithubContext = createContext({
-    user: {},
+    user: {
+        
+    },
     repositories: [],
     starred: [],
 });

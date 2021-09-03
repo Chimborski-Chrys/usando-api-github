@@ -3,8 +3,7 @@ import { GithubContext } from "../providers/github-provider";
 
 const useGithub = () => {
   const { githubState, getUser, getUserRepos, getUserStarred } = useContext(
-    GithubContext
-  );
+    GithubContext );
 
   return { githubState, getUser, getUserRepos, getUserStarred };
 };
