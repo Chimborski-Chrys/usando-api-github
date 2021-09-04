@@ -12,9 +12,9 @@ export const WrapperInfoUser = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    height: auto;
     margin-left: 10px;
     height: 190px;
+   
     h1{
         font-size:30px;
         font-weight: bold;
@@ -26,8 +26,9 @@ export const WrapperInfoUser = styled.div`
     }
 
     h4{
-        font-size:18px;
+        font-size:16px;
         font-weight: bold;
+       
     }
 
 `;
@@ -38,8 +39,7 @@ export const WrapperStatusCount = styled.div`
    
     div{
         margin:5px;
-        text-align: center;
-        
+        text-align: center;        
     }     
 `;
 
